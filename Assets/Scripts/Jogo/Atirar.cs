@@ -50,7 +50,7 @@ public class Atirar : MonoBehaviour
         }
         if (contador > 1 && contador < 4)
         {
-            posicaoAtual = new Vector2(scriptControle.rbSeta.transform.position.x, scriptControle.rbSeta.transform.position.y);
+            //posicaoAtual = new Vector2(scriptControle.rbSeta.transform.position.x, scriptControle.rbSeta.transform.position.y);
             //rbBola.velocity = new Vector2(0, 0);
             rbBola.AddForce((posicaoAtual)
                         * (scriptBarraForca.valorVelocidadeLancamentoQuadrado() * Time.deltaTime * 200), ForceMode2D.Impulse);

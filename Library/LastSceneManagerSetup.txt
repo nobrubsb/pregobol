@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenas/Abertura.unity
+- path: Assets/Scenas/TelaJogo.unity
   isLoaded: 1
   isActive: 1
